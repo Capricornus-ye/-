@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header id="header"></header>
+    <section>
+        <div class="list">
+            <div class="list_name">
+                <a href="javascript:;">良仓&gt;</a>
+                <a href="javascript:;">商品&gt;</a>
+                <a href="javascript:;">所有商品</a>
+            </div>
+            <div class="listsort">
+                <div>
+                <a href="javascript:;"><img src="img/N.png" alt="" style="width:20px;height:20px;">新品</a>            
+                </div>
+                <div><a href="javascript:;">家居</a></div>
+                <div><a href="javascript:;">文具</a></div>
+                <div><a href="javascript:;">数码</a></div>
+                <div><a href="javascript:;">玩乐</a></div>
+                <div><a href="javascript:;">餐厨</a></div>
+                <div><a href="javascript:;">美食</a></div>
+                <div><a href="javascript:;">服装</a></div>
+                <div><a href="javascript:;">鞋包</a></div>
+                <div><a href="javascript:;">配饰</a></div>
+                <div class="selPrice">价格筛选
+                <img style="width:15px;height:15px;vertical-align:middle;margin-top:-3px;"src="img/nav-btn.png" alt="">
+                       <div class="selDrop">
+                            <div><a href="javascript:;">全部商品</a></div>
+                            <div><a href="javascript:;">0-300</a></div>
+                            <div><a href="javascript:;">301-1000</a></div>
+                            <div><a href="javascript:;">1001-2000</a></div>
+                            <div><a href="javascript:;">2001-4000</a></div>
+                            <div style="border-bottom:none;"><a href="javascript:;">4001以上</a>
+                            </div> 
+                       </div>   
+                </div>
+            </div>
+            <div class="shopList" id="shop">
+               <!-- <div>
+                    <img src="img/263996.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/678.jpg" alt="">小众之地</a>
+                    <a href="javascript:;">594 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥1170.00</p>
+                        <p class="title">17Nandan Road花香调香水 | 感受植物香气的清新迷人</p>
+                        <p class="desc">灵感来自创始人对上海桂花的印象，迷朦的桂花香，夹杂了桂花、绿草、城市...</p>
+                        </a>
+                    </div>     
+                </div>
+                <div>                    
+                    <img src="img/263957.jpg" alt="">
+                    <img src="img/178.jpg" alt="">
+                    <span>限时特惠</span>
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1438.jpg" alt="">Seletti</a>
+                    <a href="javascript:;">441<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>   
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥1422.00</p>
+                        <p class="title">意大利铝制狼头骨摆件 | 时髦了半个世纪的网红家居品牌</p>
+                        <p class="desc">造型独特，奇珍异宝系列摆件，每一件都独一无二...</p>
+                        </a>
+                    </div>                  
+                </div>
+                
+                 <div>
+                    <img src="img/263986.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1511.jpg" alt="">Diem</a>
+                    <a href="javascript:;">594 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>  
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥118.00</p>
+                        <p class="title">日本植物精萃漱口水500ml | 畅销亚洲的口腔护理品牌</p>
+                        <p class="desc">畅销全球的口腔护理品牌，两款薄荷味可选，植物精华，快速清新口气，温和清洁...</p>
+                        </a>
+                    </div>                   
+                </div>
+                <div>
+                    <img src="img/263947.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1503.jpg" alt="">CHOCO CONCERT</a>
+                    <a href="javascript:;">606<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>   
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥1380.00</p>
+                        <p class="title">明星同款白色休闲运动鞋 | Gucci同款进口皮革 男女同款</p>
+                        <p class="desc">与Gucci品牌Ace系列运动鞋采用相同皮革，青春时尚...</p>
+                        </a>
+                    </div>                  
+                </div>
+                <div>
+                    <img src="img/263951.jpg" alt="">
+                    <img src="img/178.jpg" alt="">
+                    <span>限时特惠</span>
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1438.jpg" alt="">Seletti</a>
+                    <a href="javascript:;">529 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>   
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥661.00</p>
+                        <p class="title">意大利设计师心动花瓶 | 放桌上 让心花怒放</p>
+                        <p class="desc">造型独特，放桌上，心花怒放，送女友首选的浪漫礼物...</p>
+                        </a>
+                    </div>                 
+                </div>
+                 <div>
+                    <img src="img/263961.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1473_1545968379.jpg" alt="">B&O</a>
+                    <a href="javascript:;">626<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥2298.00</p>
+                        <p class="title">Earset挂耳式无线蓝牙 | 适合耳朵的每一个形状</p>
+                        <p class="desc">经典的三轴转向提高舒适感，精密度和灵敏度，三款可选...</p>
+                        </a>
+                    </div>                    
+                </div>
+                <div>
+                    <img src="img/263891.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/314.jpg" alt="">GLAME EVER</a>
+                    <a href="javascript:;">550<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥699.00</p>
+                        <p class="title">多枚菱形大理石吊坠手链 | 别有时尚质感 精致简约</p>
+                        <p class="desc">别有时尚质感，精致简约，经典大理石纹理，侧面镶嵌多枚锆石，细节尽显璀璨...</p>
+                        </a>
+                    </div>                    
+                </div>
+                <div>
+                    <img src="img/263938.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1467.jpg" alt="">K-Bright</a>
+                    <a href="javascript:;">603<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥328.00</p>
+                        <p class="title">打造高光肌养肤精华液 | 宛如大了水光针一样水润</p>
+                        <p class="desc">深入肌肤底层，留下丝绒般的肤感，有效亮颜，柔肤...</p>
+                        </a>
+                    </div>                    
+                </div>
+                 <div>
+                    <img src="img/263906.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1459.jpg" alt="">VIVALANDS</a>
+                    <a href="javascript:;">422<img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥680.00</p>
+                        <p class="title">开心系列心形戒指 | 灵动的像张开心的翅膀</p>
+                        <p class="desc">925银镀18K金，戒圈可调节，心形可开合，寓意开心...</p>
+                        </a>
+                    </div>                    
+                </div>
+                <div>
+                    <img src="img/263887.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1500.jpg" alt="">观夏SUMMER Lab</a>
+                    <a href="javascript:;">624 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>  
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥298.00</p>
+                        <p class="title">玫瑰灵药甜蜜香薰礼盒 | 世界知名调香师合作研制</p>
+                        <p class="desc">玫瑰香与粉晶石的神秘邂逅，让你多攒些恋爱的运气 ...</p>
+                        </a>
+                    </div>                   
+                </div>
+                <div>
+                    <img src="img/263818.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1464.jpg" alt="">MOBOH</a>
+                    <a href="javascript:;">627 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥339.00</p>
+                        <p class="title">原创设计师 3D立体耳钉 | 耳畔的与众不同和时尚精致</p>
+                        <p class="desc">性外观男女通用，银针耳钉防过敏，时尚出街单品...</p>
+                        </a>
+                    </div>                    
+                </div>
+                 <div>
+                    <img src="img/263878.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1498.jpg" alt="">AYTM</a>
+                    <a href="javascript:;">610 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥849.00</p>
+                        <p class="title">放在哪里都好看置物架 | 随意收纳 与周围融为一体</p>
+                        <p class="desc">设计繁复而又优雅，高品质材料和精益求精的细节...</p>
+                        </a>
+                    </div>                     
+                </div>
+                <div>
+                    <img src="img/263865.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/480_1533278611.jpg" alt="">MANITO</a>
+                    <a href="javascript:;">554 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥298.00</p>
+                        <p class="title">真丝睡眠眼罩 红心提花款 | 柔软桑蚕丝 安享亲肤睡眠</p>
+                        <p class="desc"> 丝滑桑蚕丝，安享亲肤睡眠，Shape of Love系列，6A级桑蚕丝舒适亲肤，安享睡...</p>
+                        </a>
+                    </div>                   
+                </div>
+                <div>
+                    <img src="img/263771.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1189.jpg" alt="">Lucia Berutto</a>
+                    <a href="javascript:;">614 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥960.00</p>
+                        <p class="title">时尚双层加绒睡衣套装 | 精致 从一件舒适睡衣开始</p>
+                        <p class="desc">选用中性风格，外观时尚挺括，让整体更加时尚精致...</p>
+                        </a>
+                    </div>                    
+                </div>
+                 <div>
+                    <img src="img/263806.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1307.jpg" alt="">handhandhand</a>
+                    <a href="javascript:;">556 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥188.00</p>
+                        <p class="title">天然大豆手工香氛蜡烛 | 有故事的艺术香薰蜡烛</p>
+                        <p class="desc">有神秘木质香，诱人玫瑰香，清甜浆果和浓郁晚玉香可选...</p>
+                        </a>
+                    </div>                    
+                </div>
+                <div>
+                    <img src="img/263717.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/1484.jpg" alt="">SUDIO</a>
+                    <a href="javascript:;">606 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥749.00</p>
+                        <p class="title">NIVA迷你入耳式蓝牙耳机 | 可连接2台不同的手机</p>
+                        <p class="desc">指触操控，控制音乐，接听电话，激活多种语音功能...</p>
+                        </a>
+                    </div>                    
+                </div>
+                <div>
+                    <img src="img/250807.jpg" alt="">
+                    <img src="img/178.jpg" alt="">
+                    <span>限时特惠</span>
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/312.jpg" alt="">ITO</a>
+                    <a href="javascript:;">458 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div> 
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥1098.00 <s>￥2196.00</s></p>
+                        <p class="title">Pistachio超轻旅行箱-炭黑磨砂款 | 德国红点奖 高颜值又实用</p>
+                        <p class="desc">
+                        PISTACHIO系列超轻旅行箱，从东方建筑生活美学出发，诚实遵循产品实用性，...
+                        </p>
+                        </a>
+                    </div>                    
+                </div>
+                 <div>
+                    <img src="img/263746.jpg" alt="">
+                    <div class="bar">
+                    <a href="javascript:;"><img src="img/121_1525406408.jpg" alt="">YǏN隐</a>
+                    <a href="javascript:;">630 <img src="img/heart_gray20_18.png" alt=""></a>
+                    </div>   
+                    <div class="mask">
+                        <a href="javascript:;">
+                        <p class="money">￥1260.00</p>
+                        <p class="title">莫比乌斯系列全金手链 | 手腕间流动的精致优雅</p>
+                        <p class="desc">通体18K真金材质，不会变质褪色，15+2cm延长链</p>
+                        </a>
+                    </div>                  
+                </div>-->
+            </div>  
+            <div class="page">
+                <button>上一页</button>
+                <a href="javascript:;">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a href="javascript:;">5</a>
+                <a href="javascript:;">6</a>
+                <a href="javascript:;">7</a>
+                <a href="javascript:;">8</a>
+                <a href="javascript:;">9</a>
+                <a href="javascript:;">10</a>
+                <button>下一页</button>
+            </div>                   
+        </div>
+    </section>
+    <footer id="footer"></footer>
+    <script src="js/jquery-1.11.3.js"></script> 
+    <script src="js/jquery-3.2.1.js"></script> 
+    <script src="js/list.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

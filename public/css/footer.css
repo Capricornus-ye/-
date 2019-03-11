@@ -1,0 +1,125 @@
+*{
+    margin:0;padding:0;
+}
+footer{
+    width:100%;
+    height:470px;    
+}
+.footer_top{
+    padding-top:51px;
+    padding-bottom:78px;
+    width:100%;
+    height:118px;
+    background:#fbfdfe;
+}
+.footer_top>div{
+    width:1000px;
+    height:118px;
+    margin:0 auto;
+    position: relative;
+}
+.footer_top>div>div:first-child{
+    margin-left:425px;
+}
+.footer_bottom{
+    width:100%;
+    height:223px;
+    background:#25292e
+}
+.footer_bottom>div{
+    width:1000px;
+    height:221px;
+    margin:0 auto;
+    
+    position: relative;
+}
+.bottom_left{
+    width:800px;
+    height:221px;
+}
+.down{
+    padding-top:22px;
+}
+.down >a>.download:hover{
+    color:#999;
+}
+.bottom_left .connect{
+    display:flex;
+    justify-content: flex-start;
+}
+.connect>div>a{
+    text-decoration: none;
+    color:#5c5c5c;
+    font-size:14px;
+    margin-left:10px;
+}
+.connect a:hover{
+    text-decoration: none;
+    color:#999;
+    font-size:14px;
+    margin-left:10px;
+}
+.connect img{
+    height:14px;
+    margin-top:6px;
+    padding-left:10px;
+}
+.bottom_left>a>.bomb>img{
+    width:100px;
+    height:97px;
+    
+}
+.bomb{
+    width:237px;
+    height:147px;
+    position: absolute;
+    top:-180px;    
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom:45px;
+}
+.bomb>p{
+    font-size:16px;
+    float:left;
+}
+.bottom_left>a{
+    display:flex;
+    text-decoration: none;
+    color:#5c5c5c;  
+    font-size:14px;
+    position: relative;
+}
+.bottom_left>a img{
+    width:48px;
+    height:48px;
+}
+.bottom_right{
+    width:200px;
+    height:75px;
+    position: absolute;
+    right:-100px;
+    top:26px;
+    display:flex;    
+}
+.bottom_right img{
+    width:24px;
+    height:24px;
+    color:#666;
+    margin-left:15px;
+}
+.bottom_left div:nth-child(3){
+    color:#5c5c5c;
+    font-size:15px;
+}
+.bottom_right>div{
+    margin-top:6px;
+}
+.weixin img{
+    position:absolute;
+    right:-60px;
+    top:-185px;
+}
+footer span{
+    margin:0;
+}

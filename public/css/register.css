@@ -1,0 +1,119 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    background:#989898; 
+    width: 100%;
+    height: 100%;
+}
+.myres{
+    width:1000px;
+    height:680px;
+    margin:0 auto;
+}
+.res>img{
+    margin-lefT:75px;
+}
+.res{
+    width:565px;
+    height:600px;
+    margin:0 auto;
+    margin-top:200px;
+    text-align:center;
+    position: relative;
+}
+.res .ent{
+    margin-top:30px;
+}
+.res .ent p{
+    display: inline-block;
+    width:76px;
+    height:50px;
+    text-align: left;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+}
+.res .ent input{
+    width:320px;
+    height:50px;
+    background:#cbcbcb;
+    border:none;
+    outline:none;
+    text-indent:2em;
+}
+::-webkit-input-placeholder {
+    color:#fff;
+    font-weight: bold;
+}
+.login_put,.res_put{
+    width:300px;
+    height:50px;
+    background:#ccc;
+    margin-top:10px;
+    line-height: 50px;
+    margin-left:5px;
+}
+.login_put input,.res_put input{
+    width:235px;
+    height:30px;
+    border:none;    
+    background:#ccc;
+    outline: none;
+
+}
+.login_put img:first-child,.res_put img:first-child{
+    vertical-align: middle;
+    margin-left:-10px;
+    width:24px;
+    height:24px;
+}
+.ck{
+   position: relative;
+}
+.ck a:first-child{
+    position:absolute;
+    left:162px;
+    top:6px; 
+}
+.ck a:last-child{
+    position:absolute;
+    left:212px;
+    top:6px;   
+    color:#0c79cc; 
+}
+.ck a{
+    text-decoration: none;
+    font-size:12px;
+    color:#fff;
+}
+.btn input{
+    position:absolute;
+    top:435px;
+    left:162px;
+    width:320px;
+    height:50px;
+    background:#25292e;
+    font-size:20px;
+    border:none;
+    outline: none;
+    color:#fff;
+    cursor:pointer;
+}
+.other{
+    position: absolute;
+    bottom:40px;
+    left:162px;
+    width:300px;
+    display:flex;
+    justify-content: space-between
+}
+.other img{
+    width:26px;
+    height:26px;
+    vertical-align: middle;
+}
+.other a{
+    color:#fff;
+
+}
